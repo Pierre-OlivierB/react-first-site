@@ -9,7 +9,7 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    const formMess = document.querySelector(".form-message");
+    const formMess = document.querySelector(".formMessage");
 
     emailjs
       .sendForm(
